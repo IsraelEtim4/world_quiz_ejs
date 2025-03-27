@@ -7,7 +7,7 @@ const db = new pg.Client({
   host: "localhost",
   database: "world",
   password: "23132019",
-  port: 5050,
+  port: 5432,
 });
 
 const app = express();
